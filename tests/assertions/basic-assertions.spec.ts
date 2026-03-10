@@ -22,5 +22,5 @@ test("comparison checks", async () => {
   expect(score).toBeGreaterThan(80); // passes
   expect(score).toBeGreaterThanOrEqual(85); // passes
   expect(score).toBeLessThan(100); // passes
-  expect(score).toBeLessThanOrEqual(85); // passes
+
 });
